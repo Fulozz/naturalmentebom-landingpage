@@ -33,6 +33,7 @@ const Footer = () => {
         </div>
         <div className="footer-section-columns">
           <span>Terms & Conditions</span>
+          <span>Privacy Policy</span>
           <span>Feito com ❤ por <a href="https://www.linkedin.com/in/thiagoandrade072/">Thiago Silva Andrade</a></span>
         </div>
       </div>
