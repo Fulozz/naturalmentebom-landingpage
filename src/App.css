@@ -22,7 +22,9 @@ body {
 body {
   background-color: #f6f6f6;
 }
-
+a{
+  text-decoration: none;
+}
 nav {
   display: flex;
   align-items: center;
@@ -64,6 +66,10 @@ nav {
   position: relative;
   display: flex;
   padding-top: 3rem;
+}
+.nav-logo-container {
+  padding-top: 20px;
+
 }
 .home-bannerImage-container {
   position: absolute;
@@ -201,7 +207,7 @@ nav {
   margin-top: 10rem;
 }
 .footer-logo-container {
-  max-width: 110px;
+  max-width: 160px;
 }
 .footer-icons {
   margin-top: 2.5rem;
@@ -321,7 +327,8 @@ nav {
 }
 @media (max-width: 800px) {
   .nav-logo-container {
-    max-width: 140px;
+    padding-top: 20px;
+    max-width: 160px;
   }
   .navbar-links-container {
     display: none;

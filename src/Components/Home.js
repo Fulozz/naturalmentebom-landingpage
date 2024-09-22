@@ -14,10 +14,10 @@ const Home = () => {
         </div>
         <div className="home-text-section">
           <h1 className="primary-heading">
-            As melhores verduras e legumes frescos
+            As melhores alfaces
           </h1>
           <p className="primary-text">
-            Verduras fresquinhas e colhidas no dia, sem uso de agrotoxico e saudavel para você!.
+            Alfaces fresquinhas e colhidas no dia, sem uso de agrotoxico e saudavel para você!.
           </p>
           <a href=";" className="secondary-button">
             Pedir agora <FiArrowRight />{" "}
