@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
 import Logo from "../Assets/naturalmentebom-logo.png";
-import { BsCart2 } from "react-icons/bs";
 import { HiOutlineBars3 } from "react-icons/hi2";
 import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
@@ -51,9 +50,6 @@ const Navbar = () => {
         <a href="#about">Sobre</a>
         <a href="">Testemunhos</a>
         <a href="#contato">Contato</a>
-        <a href="">
-          <BsCart2 className="navbar-cart-icon" />
-        </a>
         <a href="https://wa.me/5511972694511?text=Olá! Quais são as opções de alface?" target="_blank" rel="noreferrer" className="primary-button">Agende agora</a>
       </div>
       <div className="navbar-menu-container">
