@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "../Assets/naturalmentebom-logo.png";
-import { BsTwitter } from "react-icons/bs";
+//zimport { BsTwitter } from "react-icons/bs";
 import { SiLinkedin } from "react-icons/si";
 import { BsYoutube } from "react-icons/bs";
 import { FaFacebookF } from "react-icons/fa";
@@ -13,7 +13,7 @@ const Footer = () => {
           <img src={Logo} alt="logo" />
         </div>
         <div className="footer-icons">
-          <a href=""><BsYoutube /></a>
+          <a href="/"><BsYoutube /></a>
           <a href="https://www.facebook.com/groups/manutencaoextintores/"><FaFacebookF /></a>
           <a href="https://www.linkedin.com/in/ligia-andrade-9b9a7120/"><SiLinkedin /></a>
         </div>
@@ -27,9 +27,9 @@ const Footer = () => {
         </div>
         <div className="footer-section-columns">
           <a href="https://wa.me/5511972694511">11972694511</a>
-          <span>contato.naturalmentebom@gmail.com</span>
-          <span>ligia.amsilva@gmail.com</span>
-          <span>thiago.sandrade0720@gmail.com</span>
+          <span>contato.naturalmentebom@gmail</span>
+          <span>ligia.amsilva@gmail</span>
+          <span>thiago.sandrade0720@gmail</span>
         </div>
         <div className="footer-section-columns">
           <span>Terms & Conditions</span>
