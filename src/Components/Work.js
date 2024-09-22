@@ -1,30 +1,28 @@
 import React from "react";
-import PickMeals from "../Assets/pick-meals-image.png";
-import ChooseMeals from "../Assets/choose-image.png";
-import DeliveryMeals from "../Assets/delivery-image.png";
 
+import { ArrowDownToLine, PackageCheck, Leaf } from "lucide-react";
 const Work = () => {
   const workInfoData = [
     {
-      image: PickMeals,
+      Icon: Leaf,
       title: "Escolha o tipo",
-      text: "Escolha o tipo de alface que deseja.",
+      text: "Seu pedido pode ser de alface lisa, crespa ou americana, o que preferir.",
     },
     {
-      image: ChooseMeals,
+      Icon: ArrowDownToLine,
       title: "Qual frequencia?",
-      text: "Escolha a frequencia que deseja receber.",
+      text: "Você decide a cada quanto tempo quer receber.",
     },
     {
-      image: DeliveryMeals,
+      Icon: PackageCheck,
       title: "A pronta-entrega",
-      text: "Tenha suas entregas rapidas e faça o pedido agora!",
+      text: "Tenha sempre alface fresquinha em casa.",
     },
   ];
   return (
     <div className="work-section-wrapper">
       <div className="work-section-top">
-        <p className="primary-subheading">Work</p>
+        <p className="primary-subheading">Funciona</p>
         <h1 className="primary-heading">Como funciona?</h1>
         <p className="primary-text">
           Você realiza o pedido pelo whatsapp e nós entregamos na sua casa ou
@@ -35,7 +33,7 @@ const Work = () => {
         {workInfoData.map((data) => (
           <div className="work-section-info" key={data.title}>
             <div className="info-boxes-img-container">
-              <img src={data.image} alt="" />
+              <data.Icon alt="" className="icons"/>
             </div>
             <h2>{data.title}</h2>
             <p>{data.text}</p>

@@ -47,14 +47,14 @@ const Navbar = () => {
         <img src={Logo} alt="" />
       </div>
       <div className="navbar-links-container">
-        <a href="">Home</a>
-        <a href="">Sobre</a>
+        <a href="#home">Home</a>
+        <a href="#about">Sobre</a>
         <a href="">Testemunhos</a>
-        <a href="">Contato</a>
+        <a href="#contato">Contato</a>
         <a href="">
           <BsCart2 className="navbar-cart-icon" />
         </a>
-        <button className="primary-button">Agende agora</button>
+        <a href="https://wa.me/5511972694511?text=Olá! Quais são as opções de alface?" target="_blank" rel="noreferrer" className="primary-button">Agende agora</a>
       </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />

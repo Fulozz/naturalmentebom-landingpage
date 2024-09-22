@@ -263,6 +263,12 @@ nav {
 .testimonial-section-bottom h2 {
   margin-top: 1.5rem;
 }
+.icons{
+  margin-top: 30px;
+  width: 90px;
+  height: 100%;
+  color: #fe9e0d;
+}
 .work-section-wrapper {
   margin-top: 15rem;
 }
@@ -348,7 +354,7 @@ nav {
   .home-image-section,
   .about-section-image-container {
     width: 100%;
-    max-width: 500px;
+    max-width: 600px;
   }
   .primary-heading {
     text-align: center;
