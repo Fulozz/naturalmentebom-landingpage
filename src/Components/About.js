@@ -1,6 +1,6 @@
 import React from "react";
 import AboutBackground from "../Assets/about-background.png";
-import AboutBackgroundImage from "../Assets/about-background-image.png";
+import AboutBackgroundImage from "../Assets/about-image-lettuce.png";
 import { BsFillPlayCircleFill } from "react-icons/bs";
 
 const About = () => {
@@ -19,10 +19,6 @@ const About = () => {
         </h1>
         <p className="primary-text">
           Veja um vídeo mostrando como é produzido nossas verduras e legumes, mostrando todo o cuidado e carinho que temos com nossos produtos.
-        </p>
-        <p className="primary-text">
-          Non tincidunt magna non et elit. Dolor turpis molestie dui magnis
-          facilisis at fringilla quam.
         </p>
         <div className="about-buttons-container">
           <button className="secondary-button">Learn More</button>
