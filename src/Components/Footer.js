@@ -6,6 +6,12 @@ import { BsYoutube } from "react-icons/bs";
 import { FaFacebookF } from "react-icons/fa";
 
 const Footer = () => {
+  const copyInput = () => {
+    var copyText = "https://naturalmentebom.vercel.app/";
+
+    navigator.clipboard.writeText(copyText);
+    alert("Link copiado: " + copyText);
+  }
   return (
     <div className="footer-wrapper">
       <div className="footer-section-one">
@@ -22,14 +28,14 @@ const Footer = () => {
         <div className="footer-section-columns">
           <span>Qualidade</span>
           <span>Ajuda</span>
-          <span>Compartilhar</span>
+          <span onClick={copyInput}>Compartilhar</span>
           <span>Work</span>
         </div>
         <div className="footer-section-columns">
-          <a href="https://wa.me/5511972694511">11972694511</a>
           <span>contato.naturalmentebom@gmail</span>
           <span>ligia.amsilva@gmail</span>
           <span>thiago.sandrade0720@gmail</span>
+          
         </div>
         <div className="footer-section-columns">
           <span>Terms & Conditions</span>
