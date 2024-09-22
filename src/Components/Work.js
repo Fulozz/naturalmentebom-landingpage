@@ -7,28 +7,28 @@ const Work = () => {
   const workInfoData = [
     {
       image: PickMeals,
-      title: "Pick Meals",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et sagittis duis elementum interdum facilisi bibendum.",
+      title: "Escolha o tipo",
+      text: "Escolha o tipo de alface que deseja.",
     },
     {
       image: ChooseMeals,
-      title: "Choose How Often",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et ",
+      title: "Qual frequencia?",
+      text: "Escolha a frequencia que deseja receber.",
     },
     {
       image: DeliveryMeals,
-      title: "Fast Deliveries",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
+      title: "A pronta-entrega",
+      text: "Tenha suas entregas rapidas e faça o pedido agora!",
     },
   ];
   return (
     <div className="work-section-wrapper">
       <div className="work-section-top">
         <p className="primary-subheading">Work</p>
-        <h1 className="primary-heading">How It Works</h1>
+        <h1 className="primary-heading">Como funciona?</h1>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+          Você realiza o pedido pelo whatsapp e nós entregamos na sua casa ou
+          estabelecimento. Simples assim!
         </p>
       </div>
       <div className="work-section-bottom">
