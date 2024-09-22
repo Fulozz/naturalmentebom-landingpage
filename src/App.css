@@ -67,10 +67,7 @@ nav {
   display: flex;
   padding-top: 3rem;
 }
-.nav-logo-container {
-  padding-top: 20px;
 
-}
 .home-bannerImage-container {
   position: absolute;
   top: -100px;
@@ -327,7 +324,7 @@ nav {
 }
 @media (max-width: 800px) {
   .nav-logo-container {
-    padding-top: 20px;
+
     max-width: 160px;
   }
   .navbar-links-container {

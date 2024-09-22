@@ -17,7 +17,7 @@ const Home = () => {
             As melhores alfaces
           </h1>
           <p className="primary-text">
-            Alfaces fresquinhas e colhidas no dia, sem uso de agrotoxico e saudavel para você!.
+            Alfaces fresquinhas e colhidas no dia, sem uso de agrotoxico e saudavel para você!
           </p>
           <a href=";" className="secondary-button">
             Pedir agora <FiArrowRight />{" "}
