@@ -19,7 +19,7 @@ const Home = () => {
           <p className="primary-text">
             Alfaces fresquinhas e colhidas no dia, sem uso de agrotoxico e saudavel para você!
           </p>
-          <a href="https://wa.me/5511972694511?text=Bom dia, gostaria de saber as opções de alface" className="secondary-button">
+          <a href="https://wa.me/5511972694511?text=Olá! Quais são as opções de alface?" className="secondary-button">
             Pedir agora <FiArrowRight />{" "}
           </a>
         </div>
