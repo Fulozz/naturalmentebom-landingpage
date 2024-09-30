@@ -10,7 +10,7 @@ import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
-import { House, Info,  Phone, AlignJustify,ArrowRight } from "lucide-react";
+import { House, Info,  Phone, ArrowRight } from "lucide-react";
 import { Link } from "@mui/material";
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
