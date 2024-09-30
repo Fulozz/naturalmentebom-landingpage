@@ -10,35 +10,31 @@ import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
-import HomeIcon from "@mui/icons-material/Home";
-import InfoIcon from "@mui/icons-material/Info";
-import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
-import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
-import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
+import { House, Info,  Phone, AlignJustify,ArrowRight } from "lucide-react";
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
   const menuOptions = [
     {
       text: "Home",
-      icon: <HomeIcon />,
+      icon: <House />,
+      href: "#principal",
     },
     {
       text: "Sobre",
-      icon: <InfoIcon />,
+      icon: <Info />,
+      href: "#about",
     },
     {
-      text: "Relatos",
-      icon: <CommentRoundedIcon />,
+      text: "Funcionamento",
+      icon: <ArrowRight />,
+      href: "#work",
     },
     {
       text: "Contato",
-      icon: <PhoneRoundedIcon />,
-    },
-    {
-      text: "Cart",
-      icon: <ShoppingCartRoundedIcon />,
-    },
+      icon: <Phone />,
+      href: "#contato",
+    }
   ];
   return (
     <nav>
@@ -62,12 +58,15 @@ const Navbar = () => {
           onKeyDown={() => setOpenMenu(false)}
         >
           <List>
-            {menuOptions.map((item) => (
-              <ListItem key={item.text} disablePadding>
+            {menuOptions.map((data) => (
+              <ListItem key={data.text} disablePadding>
+                <Link href={data.href} underline="none"> 
                 <ListItemButton>
-                  <ListItemIcon>{item.icon}</ListItemIcon>
-                  <ListItemText primary={item.text} />
+                  <ListItemIcon>{data.icon}</ListItemIcon>
+                  <ListItemText primary={data.text} />
+                  
                 </ListItemButton>
+                </Link>
               </ListItem>
             ))}
           </List>
